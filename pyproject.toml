@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "llms-from-scratch"
+version = "0.1.0"
+description = ""
+authors = ["ChihYu Yeh <chihyu.jimmy.yeh@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+torch = "^2.0.1"
+jupyterlab = "^4.0"
+tiktoken = "^0.5.1"
+matplotlib = "^3.7.1"
+tensorflow = "^2.15.0"
+tqdm = "^4.66.1"
+numpy = "^1.25"
+pandas = "^2.2.1"
+psutil = "^5.9.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
